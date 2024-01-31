@@ -1,0 +1,11 @@
+.wrapper{
+    border: 3px solid green;
+    background-color: beige;
+    text-align: center;
+}
+.characterCard{
+    border: 6px solid red;
+    border-radius: 16px;
+    background-color: lightblue;
+    padding: 20px ;
+}
