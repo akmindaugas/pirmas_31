@@ -92,7 +92,10 @@ fetch('https://rickandmortyapi.com/api/character')
             return b.name < a.name ? 1 : -1;
         });
         console.log(sortedArray);
-
+// pirma slicinam arba splicinam archyva, tuomet ji foreachiname:
+        // element,splice(0, 8)
+        // foreach
+// ---
         for (let i = 0; i < 10; i++) {
             const element = sortedArray[i];
 
